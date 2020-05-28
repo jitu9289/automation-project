@@ -6,6 +6,6 @@ This is an automation script using selenium. By using this script we can like an
 
 STEP 1 = in "credentials.jason" file update your "USERNAME" and "PASSWORD" and save it or save as "credentails.json"
 
-STEP 2 = node tmp.js credentais.json "ACCOUNT ID NAME / PAGE NO " "WRITE COMMENT"
+STEP 2 =run this command " node tmp.js credentais.json 'ACCOUNT ID NAME / PAGE NO' 'WRITE COMMENT' " on your terminal.
 
-run command in your terminal which is described in step 2.
+  
