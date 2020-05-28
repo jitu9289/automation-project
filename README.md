@@ -1,4 +1,4 @@
-INNSTAGRAM AUTO LIKE 
+INSTAGRAM AUTO LIKE 
 This is an automation script using selenium.
 By using this script we can like and comments in posts
 We can increase the number of iteration for like the posts but we can comment only 5 post by running this script INSTAGRAM don't allow to comments on more than 5 posts.
