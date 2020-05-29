@@ -1,5 +1,4 @@
-<<<<<<<
-INSTAGRAM AUTO LIKE 
+#INSTAGRAM AUTO LIKE 
 
 
 This is an automation script using selenium. By using this script we can like the posts .
