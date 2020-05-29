@@ -6,8 +6,7 @@ let driver=bldr.forBrowser('chrome').build();
 
 let cfile=process.argv[2];
 let dataentered=process.argv[3];
-let commententer=process.argv[4];
-// let user=process.argv[3];
+
 
 
 (async function(){
@@ -47,7 +46,7 @@ let commententer=process.argv[4];
      
 
     
-    // await driver.sleep(2000);
+    
     
     let elementclick= await driver.findElement(swd.By.css('.LWmhU'));
     await elementclick.click();
@@ -63,7 +62,7 @@ let commententer=process.argv[4];
 
     let searchelement= await driver.findElements(swd.By.css('.yCE8d'));  
 
-    // console.log(searchelement.length); 
+    
     await searchelement[0].click();
 
     await driver.sleep(1000);
@@ -80,24 +79,17 @@ let commententer=process.argv[4];
 
 //+++++++++++++++++++++++++================================================================
 
-// line 83 you can increase the value of iteration , iam using only for 5 post
 
 
 
-    for(let i=0;i<5;i++){
+
+    while(true){
 
     let postlike=await driver.findElement(swd.By.css('.fr66n'));   
 
     await postlike.click();
 
-    let comment=await driver.findElement(swd.By.css('.X7cDz'));
-     await comment.click();
-    let commentsend= await driver.findElement(swd.By.css('.Ypffh'));
-     await commentsend.sendKeys(commententer);
-
-
-     await driver.sleep(1000);
-    await driver.findElement(swd.By.xpath("//*[text()='Post']")).click();
+    
     
     await driver.findElement(swd.By.xpath("//*[text()='Next']")).click();
 
@@ -106,18 +98,11 @@ let commententer=process.argv[4];
  }
 
 
-
-    
-    await driver.manage().setTimeouts({
-        implicit: 100000,
-        pageload:100000
-     });
      
-     await driver.quit();
 
     }
     catch(err){
-      console.log(err);
+     await driver.quit();
   }
 
 })();
