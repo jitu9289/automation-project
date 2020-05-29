@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 INSTAGRAM AUTO LIKE 
 
 
@@ -12,3 +13,4 @@ STEP 1 = in "credentials.jason" file update your "USERNAME" and "PASSWORD" and s
 STEP 2 = node tmp.js credentais.json "USERNAME OF VICTIM" 
 
 run command in your terminal which is describe in step 2.
+=======
