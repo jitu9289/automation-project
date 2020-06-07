@@ -2,7 +2,6 @@
 
 
 This is an automation script using selenium. By using this script we can like the posts .
-Note if u already like all the post then u need to dislikeD the post and then run the script.
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
  HOW TO RUN THIS SCRIPT
